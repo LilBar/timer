@@ -1,6 +1,5 @@
 import time
 
-
 def countdown_timer(time_string):
     hours, minutes, seconds = map(int, time_string.split(":"))
     total_seconds = hours * 3600 + minutes * 60 + seconds
